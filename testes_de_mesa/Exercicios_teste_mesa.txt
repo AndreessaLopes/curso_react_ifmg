@@ -1,0 +1,30 @@
+Exercício 1:
+Passo | x |  y |  z  | 			Ação
+1     |	6 |  - |  -  |  Atribuição do valor 6 a variável x
+2     |	6 |  4 |  -  |  Atribuição do valor 4 a variável y
+3     |	6 |  4 |  10 |  Atribuição do valor do resultado da expressão x + y a variável z
+4     |	8 |  4 |  10 |  Atribuição do valor do resultado da expressão z - 2 a variável x
+
+Exercício 2:
+Passo | a |  b |  c  | 			Ação
+1     |	9 |  - |  -  |  Atribuição do valor 9 a variável a
+2     |	9 |  3 |  -  |  Atribuição do valor 3 a variável b
+3     |	9 |  3 |  27 |  Atribuição do valor do resultado da expressão a * b a variável c
+4     |	9 |  3 |  27 |  Atribuição do valor do resultado da expressão c / b a variável a
+5     |	9 | 36 |  27 |  Atribuição do valor do resultado da expressão a + c a variável b
+
+Exercício 3:
+Passo | m |  n |  p  | 			Ação
+1     |	12|  - |  -  |  Atribuição do valor 9 a variável m
+2     |	12|  5 |  -  |  Atribuição do valor 3 a variável n
+3     |	12|  5 |  21 |  Atribuição do valor do resultado da expressão (m - n) * 3 a variável p
+4     |	12| 33 |  21 |  Atribuição do valor do resultado da expressão p + m a variável n
+5     |	12| 33 |  21 |  Atribuição do valor do resultado da expressão n - p a variável m
+
+Exercício 4:
+Passo | a   |  b |  c  | 			Ação
+1     |	3,33|  4 |  2  |  Valores foram atribuídos as variáveis a e b inicialmente como 20 6 depois foi feita a operação
+			  a % b para a atribuição da variável c <- 2. Após foi feita a operação a / b para a atribuição da variável 
+			  a <- 3,33. Finalmente foi feita a operação b - c para a atribuição da variável b < - 4.
+
+

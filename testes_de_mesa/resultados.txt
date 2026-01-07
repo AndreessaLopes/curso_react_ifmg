@@ -1,0 +1,58 @@
+Exercício 1:
+(4) ['Pão', 'Leite', 'Ovos', 'Café']
+
+Exercício 2:
+(2) ['Livro A', 'LivroB']
+
+Exercício 3:
+(2) ['Cliente 2', 'Cliente 3']
+
+Exercício 4:
+(4) ['Acordar', 'Meditar', 'Estudar', 'Trabalhar']
+
+Exercício 5:
+(3) ['Ação 1', 'Ação 2', 'Ação 3']
+(2) ['Ação 1', 'Ação 2']
+
+Exercício 6:
+20
+40
+60
+80
+
+Exercício 7:
+(3) ['Teclado', 'Mouse', 'Monitor']
+
+Exercício 8:
+(3) [22, 30, 19]
+
+Exercício 9:
+85
+
+Exercício 10:
+JavaScript é incrível e poderoso
+
+Exercício 11:
+{id: 2, nome: 'Bruno'}
+
+Exercício 12:
+0
+
+Exercício 13:
+true
+false
+
+Exercício 14:
+(6) [1, 2, 3, 5, 8, 9]
+
+Exercício 15:
+(4) ['Ana', 'Bruno', 'Carlos', 'Daniela']
+
+Exercício 16:
+Rua A, 123, Centro, Cidade X, Estado Y
+
+Exercício 17:
+javascript #programacao #web
+
+Exercício 18:
+Joao, Maria, Pedro
