@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prontuário Médico</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Prontuário Médico</legend>
+
+            <h1>Identificação</h1>
+
+            <h2>Dados Civis</h2>
+            <label for="nome">Nome Civil:</label>
+            <input type="text" id="nome" name="nome" placeholder="Nome completo" required minlength="5" maxlength="100"
+                size="80" autofocus>
+            <br><br>
+
+            <label for="nomeSocial">Nome Social:</label>
+            <input type="text" id="nomeSocial" name="nomeSocial" placeholder="Nome social" minlength="5" maxlength="100"
+                size="80">
+            <br><br>
+
+            <label for="estadoCivil">Estado Civil:</label>
+            <select id="estadoCivil" name="estadoCivil" required>
+                <option value="">Selecione</option>
+                <option value="solteiro">Solteiro(a)</option>
+                <option value="casado">Casado(a)</option>
+                <option value="divorciado">Divorciado(a)</option>
+                <option value="viuvo">Viúvo(a)</option>
+            </select>
+            <br><br>
+
+            <label for="nomeConjuge">Nome do(a) Cônjuge:</label>
+            <input type="text" id="nomeConjuge" name="nomeConjuge" placeholder="Nome do(a) cônjuge" minlength="5"
+                maxlength="100" size="80">
+            <br><br>
+
+            <h2>Dados Biológicos</h2>
+            <label for="dataNasc">Data de Nascimento:</label>
+            <input type="date" id="dataNasc" name="dataNasc" required>
+            <br><br>
+
+            <label>Sexo:</label>
+            <input type="radio" id="sexoM" name="sexo" value="masculino" required>
+            <label for="sexoM">Masculino</label>
+
+            <input type="radio" id="sexoF" name="sexo" value="feminino">
+            <label for="sexoF">Feminino</label>
+
+            <input type="radio" id="sexoO" name="sexo" value="outro">
+            <label for="sexoO">Outro</label>
+            <br><br>
+
+            <label>Cor/Raça:</label>
+            <input type="radio" id="branco" name="cor" value="branco">
+            <label for="branco">Branco(a)</label>
+
+            <input type="radio" id="preto" name="cor" value="preto">
+            <label for="preto">Preto(a)</label>
+
+            <input type="radio" id="pardo" name="cor" value="pardo">
+            <label for="pardo">Pardo(a)</label>
+
+            <input type="radio" id="amarelo" name="cor" value="amarelo">
+            <label for="amarelo">Amarelo(a)</label>
+
+            <input type="radio" id="indigena" name="cor" value="indigena">
+            <label for="indigena">Indígena</label>
+            <br><br>
+
+            <label for="altura">Altura (cm):</label>
+            <input type="number" id="altura" name="altura" min="50" max="250">
+            <br><br>
+
+            <label for="peso">Peso (kg):</label>
+            <input type="number" id="peso" name="peso" min="3" max="300" step="0.1">
+            <br><br>
+
+            <h2>Dados Ocupacionais</h2>
+            <label for="ocupacao">Ocupação Atual:</label>
+            <input type="text" id="ocupacao" name="ocupacao" placeholder="Profissão atual" minlength="3" maxlength="40">
+            <br><br>
+
+            <label for="carga">Carga Horária Semanal:</label>
+            <input type="number" id="carga" name="carga" min="1" max="80">
+            <br><br>
+
+            <h2>Dados de Moradia</h2>
+            <label for="endereco">Endereço:</label>
+            <input type="text" id="endereco" name="endereco" placeholder="Rua, número, bairro" minlength="10"
+                maxlength="160" size="80">
+            <br><br>
+
+            <label for="cidade">Cidade:</label>
+            <input type="text" id="cidade" name="cidade" required>
+            <br><br>
+
+            <label for="estado">Estado:</label>
+            <select id="estado" name="estado" required>
+                <option value="">Selecione</option>
+                <option value="MG">MG</option>
+                <option value="SP">SP</option>
+                <option value="RJ">RJ</option>
+                <option value="ES">ES</option>
+            </select>
+            <br><br>
+
+            <h2>Dados do Primeiro Atendimento</h2>
+            <label for="acompanhante">Acompanhante:</label>
+            <input type="text" id="acompanhante" name="acompanhante" placeholder="Nome do acompanhante" minlength="5"
+                maxlength="100">
+            <br><br>
+
+            <label for="relacao">Relação:</label>
+            <input type="text" id="relacao" name="relacao" placeholder="Ex: mãe, esposo(a), amigo(a)" minlength="3"
+                maxlength="30">
+            <br><br>
+
+            <label for="telefone">Telefone para Contato:</label>
+            <input type="tel" id="telefone" name="telefone" placeholder="(37) 99999-9999"
+                pattern="^\(\d{2}\)\s?\d{4,5}-\d{4}$" title="Formato esperado: (99) 99999-9999" required>
+            <br><br>
+
+            <label for="dataAtendimento">Data do Atendimento:</label>
+            <input type="date" id="dataAtendimento" name="dataAtendimento" required>
+            <br><br>
+
+            <label for="horaAtendimento">Horário:</label>
+            <input type="time" id="horaAtendimento" name="horaAtendimento">
+            <br><br>
+
+            <h2>Histórico Clínico</h2>
+            <label for="doencas">Possui Doenças Crônicas?</label><br>
+            <input type="checkbox" id="diabetes" name="doencas[]" value="diabetes">
+            <label for="diabetes">Diabetes</label>
+
+            <input type="checkbox" id="hipertensao" name="doencas[]" value="hipertensao">
+            <label for="hipertensao">Hipertensão</label>
+
+            <input type="checkbox" id="asma" name="doencas[]" value="asma">
+            <label for="asma">Asma</label>
+            <br><br>
+
+            <label for="medicamentos">Uso Contínuo de Medicamentos:</label><br>
+            <textarea id="medicamentos" name="medicamentos" rows="4" cols="80"></textarea>
+            <br><br>
+
+            <h2>Informações Adicionais</h2>
+            <textarea id="info" name="info" rows="5" cols="80" placeholder="Observações gerais do paciente"></textarea>
+
+            <br><br>
+
+            <button type="button" onclick="processarFormulario()">
+                Enviar Prontuário
+            </button>
+
+        </fieldset>
+    </form>
+
+    <script src="./script/script.js"></script>
+</body>
+
+</html>
